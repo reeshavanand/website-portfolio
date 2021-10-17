@@ -76,7 +76,7 @@
   color: white;
   font-weight:inherit;
   font-size: 32px;
-  left:-41%;
+  left:-50%;
   background: black;
   
 }
@@ -133,9 +133,9 @@
 }
 
 .contact{
-  width:10%;
-  left: 22%;
-  margin-top: 5%;
+  width:12%;
+  left: 68.5%;
+  margin-top: 3%;
   
   
 }
@@ -143,13 +143,14 @@
 .contact button{
   background-color:rgba(164, 207, 226, 0.336); 
   border: none;
-  color: rgb(260, 260, 100);
+  border-radius: 10px;
+  color: yellow;
   font-weight: bold;
-  padding: 9px 18px;
+  padding: 6px 14px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
 }
 
@@ -162,7 +163,7 @@
   position:relative;
   border-style: hidden;
   width: 100%;
-  margin-top: 8.3%;
+  margin-top: 9%;
   margin-bottom: 0%;
   background-color:black;
   
@@ -553,15 +554,15 @@
 
 .contact-page button{
   background: rgba(164, 207, 226, 0.336);
-  width: 20%;
+  width: 30%;
   color: yellow;
   border: 0;
-  padding: 8px;
-  border-radius: 8px;
+  padding: 10px;
+  border-radius: 10px;
   font-weight: bold;
   margin-top: 2%;
   margin-bottom: 2%;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
 }
 

@@ -16,6 +16,10 @@ function App() {
 
     <Switch>
 
+    <Route path ="/contact">
+      <Contact />
+    </Route>
+
     <Route path = "/education">
       <Education />
     </Route>
@@ -28,9 +32,7 @@ function App() {
       <Skill />
     </Route>
 
-    <Route path ="/contact">
-      <Contact />
-    </Route>
+   
 
     <Route Exact path ="/">
       <Home />
