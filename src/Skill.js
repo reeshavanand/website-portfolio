@@ -50,7 +50,7 @@ const Skill = () => {
             <h1>My Portfolio Website</h1>
             <p>Reactjs</p>
             
-            <a href="https://github.com/reeshavanand/Portfolio-Website">Github Link</a>
+            <a href="">Github Link</a>
 
         </div>
 
