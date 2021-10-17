@@ -5,6 +5,7 @@
 *{
   margin: 0%;
   padding: 0%;
+  width: 100%;
   box-sizing: border-box;
   position:relative;
   font-family: "Quicksand";
@@ -27,15 +28,14 @@
   list-style-type:none;
     text-align: right;
     background: black;
-    left: 60%;
-    margin: 1%;
+    left: 0%;
+    margin: 2%;
+  
 
 }
 
 .navbar a{
-  
-  margin:5%;
-  padding: 2%;
+  margin: 2%;
   background-color: black;
   color: yellow;
   text-decoration: none;
@@ -44,13 +44,39 @@
 .navbar a:hover{
   color: white;
 }
+.navmenu{
+  position: relative;
+    width: 100%;
+    border-style: hidden;
+    background-color: black;
+    display: flex;
+}
 
-.navbar h1{
-  margin-top:5px;
+.navmenu li{
+  list-style-type:none;
+    text-align: right;
+    background-color: black;
+    left: 45%;
+    margin: 2%;
+}
+
+.navmenu a{
+  margin: 2%;
+  background-color: black;
+  color: yellow;
+  text-decoration: none
+}
+
+.navmenu a:hover{
+  color: white;
+}
+.navmenu h1{
+ 
+  margin-top:14px;
   color: white;
   font-weight:inherit;
   font-size: 32px;
-  left: -12%;
+  left:-41%;
   background: black;
   
 }
@@ -136,8 +162,8 @@
   position:relative;
   border-style: hidden;
   width: 100%;
-  margin-top: 8.5%;
-  padding: 1%;
+  margin-top: 8.3%;
+  margin-bottom: 0%;
   background-color:black;
   
 }
@@ -156,12 +182,34 @@
   color:white;
 }
 
+.footer-pages{
+  position:relative;
+  border-style:hidden;
+  width: 100%;
+  margin-top: 1%;
+  background: black;
+  background-color:black;
+}
+
+.footer-pages a{
+  text-decoration: none;
+  font-size: 20px;
+  left: 38%;
+  font-weight: initial;
+  color: yellow;
+  background: black;
+  background-color:black;
+}
+
+.footer-pages a:hover{
+  color: white;
+}
 
 .matric{
   left: 18%;
   margin: 1%;
 
-  margin-top: 7%;
+  margin-top: 5%;
   width: 60%;
   background: rgba(0, 0, 0, 0.521);
 }
@@ -473,9 +521,9 @@
   
   border-color: yellow;
   width: 30%;
-  margin: 5% auto;
+  margin: 6% auto;
   margin-top: 3%;
-  left: -2%;
+  left: -1%;
   text-align: center;
   
   
@@ -505,6 +553,7 @@
 
 .contact-page button{
   background: rgba(164, 207, 226, 0.336);
+  width: 20%;
   color: yellow;
   border: 0;
   padding: 8px;
@@ -521,31 +570,29 @@
 }
 
 .popup{
-  left: 32%;
+  left: 33%;
   width: 32%;
-  border-style:inset;
+  margin-top: 0%;
+  border-style:solid;
   border-radius: 10px;
-  border-color: yellow;
-  box-sizing: border-box;
+  border-color: rgb(243, 243, 108);
+  box-sizing:content-box;
 
 }
 .popup p{
 
 text-align: center;
-margin: 2%;
-color: aliceblue;
-
-
+margin: 1%;
+color: white;
 font-size: 16px;
 font-weight: bold;
 }
 
-.exp{
-
-  width: 50%;
-  margin-top: 4%;
+.news{
   
- 
+  width: 50%;
+  margin-top: 1%;
+  
 }
 .news img{
 
@@ -590,7 +637,11 @@ font-weight: bold;
   left: 80%;
 }
 
-
+.social{
+  width: 50%;
+  margin-top: 2%;
+  
+}
 .social img{
 
   position:absolute;
@@ -636,6 +687,11 @@ font-weight: bold;
   left: 80%;
 }
 
+.cabinet{
+  width: 50%;
+  margin-top: 2%;
+  
+}
 
 .cabinet img{
 
@@ -680,6 +736,12 @@ font-weight: bold;
   left: 80%;
 }
 
+
+.lt{
+  width: 50%;
+  margin-top: 2%;
+  
+}
 .lt img{
 
   position:absolute;
@@ -737,7 +799,7 @@ font-weight: bold;
   width: 80px;
   height: 80px;
   left: 38%;
-  margin: 2%;
+  margin: 1%;
   outline-style:groove;
   outline-color: white;
 }
@@ -794,7 +856,7 @@ font-weight: bold;
   width: 80px;
   height: 80px;
   left: 38%;
-  margin: 2%;
+  margin: 1%;
   outline-style:groove;
   outline-color: white;
 }
@@ -804,7 +866,7 @@ font-weight: bold;
   font-weight: inherit;
   text-align: center;
   color: aliceblue;
-  margin-top: 2%;
+  margin-top: 1%;
   background-color: black;
   background: rgba(0, 0, 0, 0.521);
 
@@ -840,10 +902,10 @@ font-weight: bold;
 
 .pro3{
   margin: 1%;
-  margin-top: -29%;
+  margin-top: -27.4%;
   width: 35%;
   left: 54%;
-  top: 45%;
+  top: 44%;
   background: rgba(0, 0, 0, 0.521);
 
 }
@@ -855,7 +917,7 @@ font-weight: bold;
   width: 80px;
   height: 80px;
   left: 38%;
-  margin: 2%;
+  margin: 1%;
   outline-style:groove;
   outline-color: white;
 }
@@ -865,7 +927,7 @@ font-weight: bold;
   font-weight: inherit;
   text-align: center;
   color: aliceblue;
-  margin-top: 2%;
+  margin-top: 1%;
   background-color: black;
   background: rgba(0, 0, 0, 0.521);
 
@@ -917,7 +979,7 @@ font-weight: bold;
   width: 80px;
   height: 80px;
   left: 38%;
-  margin: 2%;
+  margin: 1%;
   outline-style:groove;
   outline-color: white;
 }
@@ -927,7 +989,7 @@ font-weight: bold;
   font-weight: inherit;
   text-align: center;
   color: aliceblue;
-  margin-top: 2%;
+  margin-top: 1%;
   background-color: black;
   background: rgba(0, 0, 0, 0.521);
 
@@ -997,7 +1059,7 @@ font-weight: bold;
   font-weight: lighter;
   text-align: center;
   color: aliceblue;
-  margin-top: 1%;
+  margin-top: 2%;
   background-color: black;
   background: rgba(0, 0, 0, 0.521);
 

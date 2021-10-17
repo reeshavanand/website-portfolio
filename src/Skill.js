@@ -10,7 +10,7 @@ const Skill = () => {
     return ( 
 
         <>
-         <nav className="navbar">
+         <nav className="navmenu">
 
     <li>
 
@@ -18,9 +18,9 @@ const Skill = () => {
 <Link to = "/education">Education</Link>
 <Link to="/experience">Experience</Link>                 
 <Link to = "/skill">Projects</Link>
+</li>
 
 
-    </li>
 <h1>My skills & Projects</h1>
 </nav>
 
@@ -50,7 +50,7 @@ const Skill = () => {
             <h1>My Portfolio Website</h1>
             <p>Reactjs</p>
             
-            <a href="">Github Link</a>
+            <a href="https://github.com/reeshavanand/Portfolio-Website">Github Link</a>
 
         </div>
 
@@ -97,7 +97,7 @@ const Skill = () => {
         </div>
 
 
-        <div className="footer">
+        <div className="footer-pages">
         <a href= "https://wa.me/+919693028953">Copyright &copy; myportfoliowebsite.com</a>
         </div>
 

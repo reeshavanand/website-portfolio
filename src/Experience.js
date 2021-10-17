@@ -8,7 +8,8 @@ const Experience = () => {
     return ( 
 
         <>
-         <nav className="navbar">
+
+         <nav className="navmenu">
 <li>
 <Link to = "/">Home</Link>
 <Link to = "/education">Education</Link>
@@ -20,19 +21,18 @@ const Experience = () => {
 <h1>My Experience </h1>
 </nav>
       
-<div className="exp">
+
     
             <div className="news">
-
             <img src = {ni} alt="news channel logo"  />
                 <h1>News1 India, Noida</h1>
                 <h2>News Input Desk</h2>
                 <h3>Internee</h3>
                 <h4>June, 2017 - August,2017</h4>
                 <br/>
-                
-                
+            
             </div>
+
 
             <div className="social">
             <img src = {ca} alt="social media"  />
@@ -61,11 +61,12 @@ const Experience = () => {
                 <h2>Gurgaon, Haryana</h2>
                 <h3>Marketing & Campaign Manager</h3>
                 <h4>November, 2019 - March, 2020</h4>
+                <br/>
             </div>
 
-            </div>
+            
 
-            <div className="footer">
+            <div className="footer-pages">
         <a href= "https://wa.me/+919693028953">Copyright &copy; myportfoliowebsite.com</a>
         </div>
 

@@ -9,7 +9,7 @@ import aaft from './static/aaft.jpg';
 const Education = () => {
     return ( 
         <>
-<nav className="navbar">
+<nav className="navmenu">
 
 <li>
 <Link to = "/">Home</Link>
@@ -56,7 +56,7 @@ const Education = () => {
               
             </div>
 
-            {/* <div className="vl"></div> */}
+        
 
             <div className="master">
 
@@ -84,7 +84,7 @@ const Education = () => {
 
             </div>
 
-            <div className="footer">
+            <div className="footer-pages">
         <a href= "https://wa.me/+919693028953">Copyright &copy; myportfoliowebsite.com</a>
         </div>
        
